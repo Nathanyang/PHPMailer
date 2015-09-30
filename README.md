@@ -29,7 +29,7 @@ Formatting email correctly is surprisingly difficult. There are myriad overlappi
 
 The PHP mail() function usually sends via a local mail server, typically fronted by a `sendmail` binary on Linux, BSD and OS X platforms, however, Windows usually doesn't include a local mail server; PHPMailer's integrated SMTP implementation allows email sending on Windows platforms without a local mail server.
 
-## License
+## [License](#lic)
 
 This software is licenced under the [LGPL 2.1](http://www.gnu.org/licenses/lgpl-2.1.html). Please read LICENSE for information on the
 software availability and distribution.
@@ -88,7 +88,7 @@ if(!$mail->send()) {
 }
 ```
 
-You'll find plenty more to play with in the [examples](examples/) folder.
+<h6 id="lic">You'll find plenty more to play with in the [examples](examples/) folder.</h6>
 
 That's it. You should now be ready to use PHPMailer!
 
